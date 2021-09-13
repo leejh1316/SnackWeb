@@ -8,11 +8,11 @@ ini_set( "display_errors", 1 );
     <head>
         <meta charset="utf-8">
     </head>
-    <body> 
+    <body>
         <?php
             $db = new database();
             $db->dbConnect();
-            $db->snackdata();      
+            $db->snackdata();
         ?>
     </body>
 </html>

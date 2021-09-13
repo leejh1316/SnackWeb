@@ -6,7 +6,7 @@
     class database{
         public function dbConnect(){
             global $conn;
-            $conn = mysqli_connect('localhost', 'root', '1234', 'snack');
+            $conn = mysqli_connect('192.168.0.30', 'root', '1234', 'snack');
         }
         public function snackdata(){
             global $conn;
